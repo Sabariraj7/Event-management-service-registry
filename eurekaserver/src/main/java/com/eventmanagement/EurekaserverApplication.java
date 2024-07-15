@@ -11,6 +11,7 @@ public class EurekaserverApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaserverApplication.class, args);
 		System.out.print("Eureka Server");
+		System.out.print("this is Service Registry");
 	}
 
 }
